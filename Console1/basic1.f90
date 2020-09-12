@@ -1,7 +1,7 @@
 program basic1
     implicit none
     character*20 :: name
-    character (len=20) :: f_name, l_name
+    character (len=20) :: f_name, l_name            ! can define many same type/feature variables
     print *, "What's your name "
     
     read *, f_name, l_name
