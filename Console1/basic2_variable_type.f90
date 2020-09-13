@@ -1,4 +1,4 @@
-program basic2
+program basic2_variable_type
     implicit none
     real, parameter :: PI = 3.1415           ! 'real' mean double, float. Variable must start with a letter, variables are case insensitive
     real :: r_num1 = 0.0, r_num2 = 0.0
@@ -16,4 +16,4 @@ program basic2
     print "(a8, i1)", "Logical ", kind(can_vote)
     pause
     
-end program basic2
+end program basic2_variable_type

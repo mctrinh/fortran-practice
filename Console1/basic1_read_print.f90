@@ -1,4 +1,4 @@
-program basic1
+program basic1_read_print
     implicit none
     character*20 :: name
     character (len=20) :: f_name, l_name            ! can define many same type/feature variables
@@ -8,5 +8,5 @@ program basic1
     print *, "Hello ", trim(f_name), " ", trim(l_name)      ! trim off any excess white space
     pause
     
-end program basic1
+end program basic1_read_print
     
