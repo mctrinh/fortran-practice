@@ -48,6 +48,7 @@
 		<Filter Name="Header Files" Filter="fi;fd;h;inc"/>
 		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
 		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
-		<File RelativePath=".\basic15_module.f90"/>
-		<File RelativePath=".\mult_mod.f90"/></Filter></Files>
+		<File RelativePath=".\basic20_class.f90"/>
+		<File RelativePath=".\shape_mod.f90"/>
+		<File RelativePath=".\triangle_mod.f90"/></Filter></Files>
 	<Globals/></VisualStudioProject>
