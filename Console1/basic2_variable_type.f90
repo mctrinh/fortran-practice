@@ -12,7 +12,7 @@ program basic2_variable_type
     print *, "Smallest Real", tiny(r_num1)
     print "(a4, i1)", "Int ", kind(i_num1)      ! return the number of bytes of each variable type
     print "(a5, i1)", "Real ", kind(r_num1)     ! (a5, i1) formated prints
-    print "(a7, i1)", "Double ", kind(dbl_num)
+    print "(a7, i1)", "Double ", kind(dbl_num)  ! 'Double' has 6 digits, but a7, then we will have a space after the word 'Double'
     print "(a8, i1)", "Logical ", kind(can_vote)
     pause
     
